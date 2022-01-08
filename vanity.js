@@ -96,5 +96,7 @@ const getVanityWallet = async (input, isChecksum, isSuffix, minLength = 3, cb) =
 };
 
 module.exports = {
-    getVanityWallet
+    getVanityWallet,
+    isValidVanityAddress,
+    toChecksumAddress
 };
