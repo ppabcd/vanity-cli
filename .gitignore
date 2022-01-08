@@ -1,0 +1,6 @@
+node_modules
+wallet*
+test*
+.DS_Store
+.vscode
+*-lock.json
